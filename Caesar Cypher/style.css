@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+body {
+    flex-direction: column;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #012229;
+    color: #13A99E;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+}
+
+label {
+    position: relative;
+    transform: scale(1.5);
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+h1{
+    position: relative;
+    top: -30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+#container2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px 120px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 #0a49574a;
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border-radius: 10px;
+    height: 450px;
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    margin-top: 15px;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 6px;
+    background: #012229;
+    color: #ffffffb1;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    transition: all 0.3s;
+}
+
+button:hover{
+    background: #fff;
+    color: #012229;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transform: scale(1.05);
+}
+
+textarea{
+    margin-top: 9px;
+    width: 206px;
+    height: 90px;
+    background: #012229;
+    padding: 5px 7px;
+    border-radius: 10px;
+    color: #ffffffb1;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    resize: none;
+}
+textarea::placeholder{
+    color: #13a99f87;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+#shiftInput{
+    margin-top: 9px;
+    border-radius: 4px;
+    padding: 3px 5px;
+    background: #012229;
+    color: #ffffffb1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.footer{
+    position: relative;
+    bottom: -25px;
+    text-align: center;
+}
+h3{
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+p{
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+a{
+    text-decoration: none;
+    color: #ffffffb1;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+}
+a:hover{
+    color: #fff;
+}
